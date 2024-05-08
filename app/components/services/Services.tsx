@@ -1,8 +1,9 @@
 import ServiceCard from "./ServiceCard";
+import Section from "../section/Section";
 
 const Services = () => {
     return (
-        <section className="container sectionGap">
+        <Section bg={""} sectionClass={"sectionGap"}>
             <div className="w-full grid grid-cols-12 lg:gap-10 gap-0">
                 <div className="py-10 lg:col-span-4 col-span-12">
                     <h1 className="text-5xl leading-[65px] font-normal">
@@ -22,7 +23,7 @@ const Services = () => {
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 grid-rows-12 mt-16">
                 <ServiceCard />
             </div>
-        </section>
+        </Section>
     );
 };
 
