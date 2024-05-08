@@ -14,7 +14,7 @@ const Services = () => {
                 <div className="py-10 lg:col-span-8 col-span-12">
                     <p className="text-2xl font-light max-w-[70%]">
                         Techtonic. We design and develop - websites that convert
-                        and impress. Let's craft your digital experience.
+                        and impress. Let&apos;s craft your digital experience.
                     </p>
                 </div>
             </div>

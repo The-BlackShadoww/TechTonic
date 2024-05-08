@@ -1,6 +1,12 @@
 "use client";
+import { Dispatch, SetStateAction } from "react";
 
-const Hamburger = ({ isOpen, setIsOpen }) => {
+type HamburgerType = {
+    isOpen: boolean;
+    setIsOpen: Dispatch<SetStateAction<boolean>>;
+};
+
+const Hamburger = ({ isOpen, setIsOpen }: HamburgerType) => {
     const genericHamburgerLine = `h-[2px] w-8 my-1 bg-[#131313] transition ease transform duration-300`;
 
     return (

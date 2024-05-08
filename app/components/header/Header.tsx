@@ -2,9 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Mobile from "./Mobile";
+import { NavLinksType } from "@/types";
 
 const Header = () => {
-    const routes = [
+    const routes: NavLinksType[] = [
         {
             name: "About",
             href: "/",

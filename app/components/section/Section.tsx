@@ -1,4 +1,6 @@
-const Section = ({ children, sectionClass, className, bg }) => {
+import { SectionType } from "@/types";
+
+const Section = ({ children, sectionClass, className, bg }: SectionType) => {
     return (
         <section
             className={`w-full bg-[${bg ? bg : ""}] ${

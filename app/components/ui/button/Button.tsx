@@ -2,7 +2,12 @@ import React from "react";
 import "./button.css";
 import Link from "next/link";
 
-const Button = ({ title, href }) => {
+type ButtonType = {
+    title: string;
+    href: string;
+};
+
+const Button = ({ title, href }: ButtonType) => {
     return (
         <Link href={href} className="content__item">
             <button className="button button--hyperion">
