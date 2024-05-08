@@ -24,7 +24,7 @@ const Header = () => {
     ];
 
     return (
-        <nav className="w-full flex justify-between items-center px-2 py-3">
+        <nav className="relative w-full flex justify-between items-center px-2 py-3">
             <div className="user-select-none z-20">
                 <Link href="/">
                     <Image

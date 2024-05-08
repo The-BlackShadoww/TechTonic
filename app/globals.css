@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .sectionGap {
+        @apply my-20;
+    }
+
+    .btn {
+        @apply border border-[#673de6] py-4 px-10 text-[18px] relative hover:text-white font-medium w-fit block after:block after:content-[''] after:absolute after:top-0 after:left-0 after:h-full after:w-full after:bg-[#673de6] after:scale-x-0 after:origin-right after:transition after:duration-300 after:hover:scale-x-100 after:hover:origin-left after:hover:-z-10;
+    }
+}
